@@ -239,7 +239,7 @@ margin:150px;
 .last-part{
 max-width: 1140px;
 height:313px;
-background-image: url(../assets/handshake.jpg);
+background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url(../assets/handshake.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
