@@ -125,3 +125,39 @@ header .common-para{
   margin-right: 110px;
   padding: 10px;
 }
+.inspiration{
+  max-width: 1140px;
+  height: 680px;
+  margin:88px 150px 150px 150px;
+}
+.upper-part{
+  margin: 0px 140px 48px 140px;
+}
+.ins-title{
+  color: rgb(13, 19, 33);
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.ins-para{
+  color: rgb(13, 19, 33,0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.video{
+  max-width: 1140px;
+  height:540px;
+  text-align: center;
+  padding: 32px;
+  
+}
+.ins-video{
+  width:900px;
+  height: 500px;
+  border-radius: 16px;
+  padding: 32px;
+  border-radius: 42px;
+}
+
