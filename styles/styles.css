@@ -32,6 +32,8 @@ body{
   justify-content: space-between;
   gap: 100px;
   margin-top: 106px;
+  padding: 10px;
+  
 }
 
 .info-subtitle{
@@ -109,4 +111,17 @@ header .common-para{
   font-weight: 400;
   opacity: 0.7;
   margin-bottom: 32px;
+}
+.second-info-container{
+  display: flex;
+  gap: 32px;
+  justify-content: space-around;
+}
+.info-desc{
+  margin: 10px 0;
+}
+.second-info-desc{
+  margin: 10px 0;
+  margin-right: 110px;
+  padding: 10px;
 }
