@@ -26,6 +26,29 @@ body{
   border-radius: 8px;
   background: rgb(13, 19, 33);
 }
+
+.info-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 106px;
+}
+
+.info-subtitle{
+  margin-bottom: 16px;
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 700;
+}
+.common-btn{
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33,0.7);
+  font-size: 20px;
+  font-weight: 600;
+
+}
 /* Header Styles */
 .banner-sec-container{
   max-width: 1440px;
@@ -61,4 +84,29 @@ header .common-para{
   font-weight: 600;
   text-align: center;
   text-decoration: none;
+}
+
+/* Info styles */
+.info{
+  margin: 74px 140px 0px 140px;
+}
+.info-title{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.sec-info{
+  text-align: center;
+}
+.sec-container{
+  margin: 70px 90px;
+}
+.info-para{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 32px;
 }
