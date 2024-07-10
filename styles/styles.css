@@ -51,6 +51,28 @@ body{
   font-weight: 600;
 
 }
+.code-img{
+  width: 56px;
+  height: 56px;
+  margin-bottom: 28px;
+}
+.code-para{ 
+  color: rgb(13, 19, 33,0.7);
+  font-size: 16px;
+  font-weight: 400;
+ }
+ .code-title{
+  margin-bottom: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+.code-link{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+
 /* Header Styles */
 .banner-sec-container{
   max-width: 1440px;
@@ -161,3 +183,27 @@ header .common-para{
   border-radius: 42px;
 }
 
+.my-target{
+ max-width: 1140px;
+ height: 420px;
+ 
+margin:150px;
+}
+.code-details{
+  width: 284px;
+  height:240px;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 40px;
+}
+
+.code-details p{
+  margin-bottom: 24px;
+}
+.code-container{
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
