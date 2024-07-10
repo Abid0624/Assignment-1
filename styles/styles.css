@@ -189,21 +189,102 @@ header .common-para{
  
 margin:150px;
 }
-.code-details{
+.first-code-details{
   width: 284px;
-  height:240px;
+  height:250px;
   display: flex;
-flex-direction: column;
-justify-content: center;
-padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
 }
-
-.code-details p{
-  margin-bottom: 24px;
+.second-code-details{
+  width: 284px;
+  height:250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.third-code-details{
+  width: 284px;
+  height:250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.third-code-details p{
+  margin-bottom: 16px;
+}
+.second-code-details p{
+  margin-bottom: 16px;
+}
+.first-code-details p{
+  margin-bottom: 16px;
 }
 .code-container{
   display: flex;
   gap: 24px;
   justify-content: space-between;
   margin-top: 100px;
+}
+
+/* Footer Styles */
+.last-part{
+max-width: 1140px;
+height:313px;
+background-image: url(../assets/handshake.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin: 150px;
+border-radius: 16px;
+}
+.footer-container{
+  padding: 64px 48px;
+}
+.footer-header{
+  text-align: center;
+  margin: 0px 157px 24px 157px;
+}
+.footer-title{
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom:16px;
+}
+.footer-para{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+}
+.input-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.message{
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  font-size: 16px;
+  font-weight: 400; 
+  color: rgba(13, 19, 33, 0.4);
+
+}
+.submit{
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
 }
